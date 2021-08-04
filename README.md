@@ -1,4 +1,4 @@
 # spring-batch-partitioner-kafka-docker
 
-== Architeture
-image::files/core.png[]
+
+![Core Architeture](files/core.png)
