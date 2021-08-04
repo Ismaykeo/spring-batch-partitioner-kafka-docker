@@ -1,3 +1,3 @@
 # Employee data migration
 
-![Core Architeture](files/core.png)
+![Core Architeture](files/readme/core.svg)
