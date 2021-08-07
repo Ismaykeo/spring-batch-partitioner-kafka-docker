@@ -48,15 +48,6 @@ services:
     environment:
       KAFKA_BROKERCONNECT: kafka:29092
 
-  spring_batch:
-    image: spring-batch:1.0
-    networks:
-      - broker-kafka
-      - postgres
-    depends_on:
-      - kafka
-      - postgres
-
 volumes:
   db-data:
 
