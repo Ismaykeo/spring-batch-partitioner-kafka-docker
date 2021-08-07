@@ -1,4 +1,25 @@
-CREATE TABLE public.employee (
+
+CREATE DATABASE spring_batch
+   WITH OWNER 'user'
+   TEMPLATE template0
+   ENCODING 'UTF-8'
+   TABLESPACE  pg_default
+   LC_COLLATE  'C'
+   LC_CTYPE  'C'
+   CONNECTION LIMIT  -1;
+
+CREATE DATABASE data_migration
+   WITH OWNER 'user'
+   TEMPLATE template0
+   ENCODING 'UTF-8'
+   TABLESPACE  pg_default
+   LC_COLLATE  'C'
+   LC_CTYPE  'C'
+   CONNECTION LIMIT  -1;
+
+\c data_migration;
+
+CREATE TABLE employee (
 	empid int8 NOT NULL,
 	halfofjoining varchar(255) NULL,
 	monthofjoining int8 NULL,
