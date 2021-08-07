@@ -2,7 +2,7 @@
 
 # Employee data migration
 
-##### This project which does a data migration from a CSV to a Databse, using local partitioner technique.
+##### This project which does a data migration from a CSV to a Database, using local partitioner technique.
 
 ## Technologies Stack
 
@@ -26,7 +26,7 @@ we'll need install docker and docker-compose.
 ````
 curl -fsSL https://get.docker.com | bash
 ````
-But this command only install docker, if you is using Ubuntu or derivations,
+But this command only install docker, if you are using Ubuntu or derivations,
 you can run the code below.
 ````
 sudo apt install docker-compose
