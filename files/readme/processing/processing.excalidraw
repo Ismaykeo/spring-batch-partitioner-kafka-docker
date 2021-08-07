@@ -887,8 +887,8 @@
     },
     {
       "type": "arrow",
-      "version": 680,
-      "versionNonce": 2103203681,
+      "version": 695,
+      "versionNonce": 1209499587,
       "isDeleted": false,
       "id": "kvMCW8HXR9HDgl75aC_Ty",
       "fillStyle": "solid",
@@ -926,8 +926,8 @@
           0
         ],
         [
-          10.321752595662815,
-          87.68471813614349
+          6.988419262329444,
+          109.35138480281012
         ],
         [
           118.60590840535758,
