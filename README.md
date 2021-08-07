@@ -46,8 +46,6 @@ hawever we won't have tool logs.
 
 ## Data Processing
 
-<hr>
-
 ![Data_processing](files/readme/processing/processing.png)
 
 
