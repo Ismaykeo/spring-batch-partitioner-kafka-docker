@@ -44,14 +44,23 @@ sudo docker-compose up -d
 This way, we'll have the terminal free,
 hawever we won't have tool logs. 
 
+## Testing the project
+
+````
+./mvnw clean test
+````
+S
 ## Data Processing
 
 ![Data_processing](files/readme/processing/processing.png)
 
+### Output SplitEmployeeStep
+![SplitEmployeeStep.png](files/readme/output/spliemployeestep/img.png)
+
+### Output StepitemWriterListener on Kafka
+![img.png](files/readme/output/stepitemWriterListener/img.png)
 
 
-## Running the project
+###Output EmployeeWriter on PostgresSQL
+![img_1.png](files/readme/output/employeeWriter/img.png)
 
-````
-
-````
