@@ -1,7 +1,6 @@
 
 
 # Employee data migration
-<hr>
 
 ##### This project which does a data migration from a CSV to a Databse, using local partitioner technique.
 
