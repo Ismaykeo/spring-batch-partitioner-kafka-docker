@@ -3,9 +3,9 @@
 # Employee data migration
 <hr>
 
-#####This project which does a data migration from a CSV to a Databse, using local partitioner technique.
+##### This project which does a data migration from a CSV to a Databse, using local partitioner technique.
 
-##Technologies Stack
+## Technologies Stack
 
 - [**Docker**](https://www.docker.com/)
 - [**Docker-compose**](https://github.com/docker/compose)
@@ -20,7 +20,7 @@
 
 ![Core Architeture](files/readme/core/core.png)
 
-##Installing Stack
+## Installing Stack
 
 Due to the fact the project is using Docker in it stack, 
 we'll need install docker and docker-compose.
@@ -53,7 +53,7 @@ hawever we won't have tool logs.
 
 
 
-##Running the project
+## Running the project
 
 ````
 
