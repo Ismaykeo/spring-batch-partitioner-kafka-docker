@@ -49,7 +49,6 @@ hawever we won't have tool logs.
 ````
 ./mvnw clean test
 ````
-S
 ## Data Processing
 
 ![Data_processing](files/readme/processing/processing.png)
