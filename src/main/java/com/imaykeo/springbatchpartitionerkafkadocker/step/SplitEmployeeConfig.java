@@ -19,7 +19,8 @@ public class SplitEmployeeConfig {
 	@Value("${app.core.chunk}")
 	private int chunk;
 	@Bean 
-	public Step splitEmployee(@Qualifier("fileEmployeeReader") FlatFileItemReader<Employee> fileEmployeeReader, MultiResourceItemWriter<Employee> employeeWriter) {
+	public Step splitEmployee(@Qualifier("fileEmployeeReader") FlatFileItemReader<Employee> fileEmployeeReader,
+							  MultiResourceItemWriter<Employee> employeeWriter) {
 		return stepBuilderFactory
 				.get("splitEmployee")
 				.<Employee, Employee>chunk(chunk)

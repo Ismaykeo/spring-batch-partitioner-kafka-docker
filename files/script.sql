@@ -1,4 +1,3 @@
-
 CREATE TABLE public.employee (
 	empid int8 NOT NULL,
 	halfofjoining varchar(255) NULL,

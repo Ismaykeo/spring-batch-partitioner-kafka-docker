@@ -1,7 +1,6 @@
 package com.imaykeo.springbatchpartitionerkafkadocker.step;
 
 import com.imaykeo.springbatchpartitionerkafkadocker.domain.Employee;
-import com.imaykeo.springbatchpartitionerkafkadocker.listner.StepItemReadListener;
 import com.imaykeo.springbatchpartitionerkafkadocker.listner.StepItemWriterListener;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
@@ -56,7 +55,6 @@ public class MigrateEmployeeConfig {
                 .reader(fileEmployeeReader)
                 .writer(employeeWriter)
                 .listener(stepItemWriterListener)
-                .listener(new StepItemReadListener())
                 .transactionManager(transactionManagerApp)
                 .build();
     }
