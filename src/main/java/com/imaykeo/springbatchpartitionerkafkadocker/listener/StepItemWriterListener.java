@@ -1,11 +1,9 @@
-package com.imaykeo.springbatchpartitionerkafkadocker.listner;
+package com.imaykeo.springbatchpartitionerkafkadocker.listener;
 
-import com.imaykeo.springbatchpartitionerkafkadocker.config.KafkaConfig;
 import com.imaykeo.springbatchpartitionerkafkadocker.domain.Employee;
 import org.springframework.batch.core.ItemWriteListener;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
-import org.springframework.messaging.Message;
 import org.springframework.stereotype.Component;
 
 

@@ -1,7 +1,7 @@
 package com.imaykeo.springbatchpartitionerkafkadocker.step;
 
 import com.imaykeo.springbatchpartitionerkafkadocker.domain.Employee;
-import com.imaykeo.springbatchpartitionerkafkadocker.listner.StepItemWriterListener;
+import com.imaykeo.springbatchpartitionerkafkadocker.listener.StepItemWriterListener;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
 import org.springframework.batch.core.partition.support.Partitioner;
